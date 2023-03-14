@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup Page</title>
+    <!-- Add any necessary CSS and JS links here -->
+  </head>
+  <body>
+    <header>
+      <!-- Add any necessary header elements here -->
+    </header>
+    <main class="signup">
+      <div class="signup-options">
+        <h2>Sign Up</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+    
+          </form>
+        <!-- Add signup form elements here -->
+        <button class="signup-btn">signup</button>
+        <p>Already have an Account?<a href="login.html">Login</a></p>
+
+<style>
+.terms {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+</style>
+
+<style>
+  body {
+  margin: 0;
+  padding: 0;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-options{
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.signup-options h2 {
+  text-align: center;
+}
+
+.signup-btn{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+</style>
+
+
+
